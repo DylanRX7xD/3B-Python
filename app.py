@@ -50,7 +50,7 @@ def sair_aplicacao():
 def exibir_menu():
     print('''
       
-          Bolas de Futebol
+          SportMax 
           
           1. Cadastro de Clientes
           2. Listar Clientes
