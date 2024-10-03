@@ -38,13 +38,13 @@ def ativar_cliente():
                 cliente['ativo'] = not cliente['ativo']
                 print(f"Cliente {cliente['nome']} agora está {'Ativo' if cliente['ativo'] else 'Inativo'}.\n")
             else:
-                print('Cliente não encontrado!\n')
+                print('Cliente não achado!\n')
         except ValueError:
-            print('Entrada inválida! Por favor, insira um número válido.\n')
+            print('Entrada inválida! Insira um número válido.\n')
 
 def sair_aplicacao():
      # Aqui você pode adicionar o código para encerrar a aplicação
-    print('Saindo da Aplicação')
+    print('Saindo do Programa')
     exit()
 
 def exibir_menu():
@@ -74,7 +74,7 @@ while True:
             sair_aplicacao()
             break  # Saí do loop para encerrar o programa
         else:
-            print('Opção inválida! Por favor, escolha uma opção entre 1 e 4.')
+            print('Escolha errada! Por favor, escolha uma alternativa entre 1 e 4.')
     except ValueError:
-        print('Entrada inválida! Por favor, insira um número.')
+        print('Caracter inválido! Insira um número.')
         
